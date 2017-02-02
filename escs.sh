@@ -10,7 +10,7 @@ git add *
 git commit -a
 git push
 ##############################################################################
-cd ~/projects/vy-code
+cd ~/projects/skeys-code
 python setup.py sdist register upload
 rm -fr dist
 
