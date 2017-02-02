@@ -10,6 +10,9 @@ git add *
 git commit -a
 git push
 ##############################################################################
+cd ~/projects/vy-code
+python setup.py sdist register upload
+rm -fr dist
 
 
 
