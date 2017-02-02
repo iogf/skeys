@@ -1,0 +1,10 @@
+echo '' > ~/.ssh/known_hosts
+
+ssh-keygen -t rsa 
+ls -la ~/.ssh/id_rsa
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub | xsel -b
+
+
